@@ -31,10 +31,20 @@ def main():
         print(reverse("hello"))
     # reverseStrLamb()
 
+
     def greetingLamb():
         greet = lambda name, greeting="Good Morning": f"{greeting}, {name}!"
         print(greet("Derek"))
-    greetingLamb()
+    # greetingLamb()
+        
+    # Substitute for print() function
+    show = lambda x : print(x)
+    show("You can use show() instead of print() now if print isn't correlating with you.")
+
+    display = lambda x : print(x)
+    display("display() is functioning like a print() function")
+
+
 
 
 
